@@ -4,5 +4,81 @@
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(29deg, white 50%, black 50%);
-    font-family: 'Jacques Francois', serif;;
+    font-family: 'Jacques Francois', serif;
+
+    &__Container {
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+    }
+
+    &__My-Name {
+        width: 210px;
+        margin-top: 200px;
+        margin-left: 70px;
+    }
+
+    &__My-Name h3 {
+        font-size: 30px;
+        font-weight: 200;
+        text-transform: uppercase;
+    }
+
+    &__Title {
+        margin-left: 60px;
+        width: 650px;
+    }
+
+    &__Title h1 {
+        text-transform: uppercase;
+        font-size: 55px;
+        letter-spacing: 14px;
+        font-weight: 400;
+    }
+
+    &__Title span {
+        color: white;
+    }
+
+    &__Barras {
+        margin-top: 150px;
+        margin-left: -63px;
+    }
+
+    &__Barra-1 {
+        width: 220px;
+        height: 8px;
+        background-color: black;
+    }
+
+    &__Barra-2 {
+        width: 280px;
+        height: 8px;
+        background-color: black;
+        margin-top: 20px;
+    }
+
+    &__Barra-3 {
+        width: 370px;
+        height: 8px;
+        background-color: black;
+        margin-top: 20px;
+    }
+
+    &__Barra-4 {
+        width: 450px;
+        height: 8px;
+        background-color: black;
+        margin-top: 20px;
+    }
+
+
+    &__Area-Perfil {
+        width: 300px;
+        height: 300px;
+        margin-top: 150px;
+        border-radius: 50%;
+        background-color: white;
+    }
 }
