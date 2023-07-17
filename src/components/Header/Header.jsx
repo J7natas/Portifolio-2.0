@@ -5,19 +5,75 @@ import iconContact from '../../assets/imagesHeader/icon-contact.svg';
 import './index.scss';
 
 export const Header = () => {
+
+    function ActiveHome() {
+        let project = document.getElementById('project');
+        let home = document.getElementById('home');
+        let skils = document.getElementById('skil');
+        let contact = document.getElementById('contact');
+
+        home.classList.add('active');
+        project.classList.remove('active');
+        skils.classList.remove('active');
+        contact.classList.remove('active');
+
+    }
+
+    function activeProject() {
+        let project = document.getElementById('project');
+        let home = document.getElementById('home');
+        let skils = document.getElementById('skil');
+        let contact = document.getElementById('contact');
+
+        home.classList.remove('active-home');
+        home.classList.remove('active');
+        project.classList.add('active');
+        project.classList.add('activeProject')
+        skils.classList.remove('active');
+        contact.classList.remove('active');
+
+    }
+
+    function activeSkils() {
+        let project = document.getElementById('project');
+        let home = document.getElementById('home');
+        let skils = document.getElementById('skil');
+        let contact = document.getElementById('contact');
+
+        home.classList.remove('active-home');
+        skils.classList.add('active');
+        home.classList.remove('active');
+        project.classList.remove('active');
+        contact.classList.remove('active');
+
+    }
+
+    function activeContact() {
+        let project = document.getElementById('project');
+        let home = document.getElementById('home');
+        let skils = document.getElementById('skil');
+        let contact = document.getElementById('contact');
+
+        home.classList.remove('active-home');
+        skils.classList.remove('active');
+        home.classList.remove('active');
+        project.classList.remove('active');
+        contact.classList.add('active');
+    }
+
     return(
-        <header className="Header">
+        <header id='header' className="Header">
           <div className="Header__icons">
-            <div className='Header__icon-white'>
-                <img src={iconHome} />
+            <div id='home' onClick={ActiveHome} className='Header__icon-white active-home'>
+                <img id='img' src={iconHome} />
             </div>
-            <div className='Header__icon-white'>
-                <img src={iconProject} />
+            <div id='project' onClick={activeProject} className='Header__icon-white'>
+                <img className='activeProject' src={iconProject} />
             </div>
-            <div className='Header__icon-white'>
+            <div id='skil' onClick={activeSkils} className='Header__icon-white'>
                 <img src={iconSkils} />
             </div>
-            <div className='Header__icon-white'>
+            <div id='contact' onClick={activeContact} className='Header__icon-white'>
                 <img src={iconContact} />
             </div>
           </div>

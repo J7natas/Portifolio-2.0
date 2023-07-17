@@ -1,4 +1,5 @@
 import './index.scss';
+import perfil from '../../assets/foto-perfil.png';
 
 const Home = () => {
   return (
@@ -9,7 +10,7 @@ const Home = () => {
             <h3>my name is Jônatas</h3>
           </div>
           <div className='Home__Title'>
-            <h1>Develope<span>r</span> front end</h1>
+            <h1>Front en<span>d</span> Developer</h1>
           </div>
           <div className='Home__Barras'>
             <div className='Home__Barra-1'></div>
@@ -20,7 +21,7 @@ const Home = () => {
         </div>
         <div className='Home__Area-Rigth'>
           <div className='Home__Area-Perfil'>
-
+              <img src={perfil} />
           </div>
         </div>
       </div>
