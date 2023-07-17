@@ -3,6 +3,8 @@ import { Header } from "./components/Header/Header";
 import Home from "./views/Home/Home";
 import './index.scss';
 import Project from "./views/Projects/Project";
+import Skils from "./views/Skils/Skils";
+import Contact from "./views/Contact/Contact";
 
 function App() {
 
@@ -12,6 +14,8 @@ function App() {
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Project />} />
+          <Route path="/skils" element={<Skils />} />
+          <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );

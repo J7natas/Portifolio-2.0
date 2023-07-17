@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Jacques+Francois&display=swap');
+
+.Skils {
+
+    &__Area-Title {
+        width: 0; 
+        height: 0; 
+        border-left: 630px solid transparent;
+        border-right: 630px solid transparent;
+        border-top: 150px solid #000000;
+        font-family: 'Jacques Francois', serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    &__Area-Title h1 {
+        position: absolute;
+        color: white;
+        margin-top: -200px;
+        font-weight: 400;
+        font-size: 30px;
+        letter-spacing: 10px;
+    }
+
+    &__Bar-height-1 {
+        width: 12px;
+        height: 400px;
+        background-color: black;
+        border-radius: 10px;
+        top: 0;
+        position: absolute;
+        margin-left: 55px;
+    }
+
+    &__Bar-height-2 {
+        width: 12px;
+        height: 350px;
+        background-color: black;
+        border-radius: 10px;
+        top: 0;
+        position: absolute;
+        margin-left: 75px;
+    }
+
+    &__Bar-height-3 {
+        width: 12px;
+        height: 300px;
+        background-color: black;
+        border-radius: 10px;
+        top: 0;
+        position: absolute;
+        margin-left: 95px;
+    }
+
+    &__Bar-height-4 {
+        width: 12px;
+        height: 250px;
+        background-color: black;
+        border-radius: 10px;
+        top: 0;
+        position: absolute;
+        margin-left:115px;
+    }
+
+    &__Bar-height-5 {
+        width: 12px;
+        height: 200px;
+        background-color: black;
+        border-radius: 10px;
+        top: 0;
+        position: absolute;
+        margin-left:135px;
+    }
+
+    &__Container {
+        padding: 40px 150px 0px 150px;
+    }
+
+    &__Skil-Category-1 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__Skil-Category-2 {
+        margin-top: 90px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__Bar-bottom-1{
+        margin-right: 50px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        width: 12px;
+        height: 400px;
+        background-color: black;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    &__Bar-bottom-2{
+        margin-right: 70px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        width: 12px;
+        height: 350px;
+        background-color: black;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    &__Bar-bottom-3{
+        margin-right: 90px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        width: 12px;
+        height: 300px;
+        background-color: black;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+
+    &__Bar-bottom-4{
+        margin-right: 110px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        width: 12px;
+        height: 250px;
+        background-color: black;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    &__Bar-bottom-5{
+        margin-right: 130px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        width: 12px;
+        height: 200px;
+        background-color: black;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}

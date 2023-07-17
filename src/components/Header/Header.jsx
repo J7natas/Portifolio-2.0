@@ -77,9 +77,11 @@ export const Header = () => {
                     <img className='activeProject' src={iconProject} />
                 </div>
             </Link>
-            <div id='skil' onClick={activeSkils} className='Header__icon-white'>
-                <img src={iconSkils} />
-            </div>
+            <Link to={'/skils'}>
+                <div id='skil' onClick={activeSkils} className='Header__icon-white'>
+                    <img src={iconSkils} />
+                </div>
+            </Link>
             <div id='contact' onClick={activeContact} className='Header__icon-white'>
                 <img src={iconContact} />
             </div>
