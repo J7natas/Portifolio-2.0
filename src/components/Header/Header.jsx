@@ -82,9 +82,11 @@ export const Header = () => {
                     <img src={iconSkils} />
                 </div>
             </Link>
-            <div id='contact' onClick={activeContact} className='Header__icon-white'>
-                <img src={iconContact} />
-            </div>
+            <Link to={'/contact'}>
+                <div id='contact' onClick={activeContact} className='Header__icon-white'>
+                    <img src={iconContact} />
+                </div>
+            </Link>
           </div>
         </header>
     )

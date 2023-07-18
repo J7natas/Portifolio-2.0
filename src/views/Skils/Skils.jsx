@@ -7,6 +7,8 @@ import iconSass from '../../assets/images-skils/icon-sass.svg';
 import iconFigma from '../../assets/images-skils/icon-figma.svg';
 import iconGit from '../../assets/images-skils/icon-git.svg';
 
+import { motion } from 'framer-motion';
+
 import './index.scss';
 
 const Skils = () => {
@@ -22,7 +24,10 @@ const Skils = () => {
         <div className='Skils__Bar-height-4'></div>
         <div className='Skils__Bar-height-5'></div>
 
-        <div className='Skils__Container'>
+        <motion.div
+             initial={{ width:'1000' }}
+             animate={{ width:'100%' }}     
+            className='Skils__Container'>
             <div className='Skils__Skil-Category-1'>
                 <img src={iconHtnl} />
                 <img src={iconCss} />
@@ -35,7 +40,7 @@ const Skils = () => {
                 <img src={iconSass} />
                 <img src={iconFigma} />
             </div>
-        </div>
+        </motion.div>
 
         <div className='Skils__Bar-bottom-1'></div>
         <div className='Skils__Bar-bottom-2'></div>

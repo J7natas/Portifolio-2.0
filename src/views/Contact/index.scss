@@ -1,0 +1,53 @@
+
+.Contact {
+
+    &__Area-Title {
+        width: 0; 
+        height: 0; 
+        border-left: 630px solid transparent;
+        border-right: 630px solid transparent;
+        border-top: 150px solid #000000;
+        font-family: 'Jacques Francois', serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    &__Area-Title h1 {
+        position: absolute;
+        color: white;
+        margin-top: -150px;
+        font-weight: 400;
+        font-size: 30px;
+        letter-spacing: 10px;
+    }
+
+    &__Container {
+        display: flex;
+        margin-top: 150px;
+        justify-content: space-around;
+        transition: 0.8s;
+    }
+
+    &__Cont {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    &__Cont p {
+        margin-left: 10px;
+    }
+
+    #Left {
+        margin-left: 10px;
+    }
+
+    &__Cont img:hover {
+        transition: 0.5s;
+        transform: rotate(360deg) scale(1.3);
+    }
+
+}

@@ -1,9 +1,14 @@
 import './index.scss';
 import perfil from '../../assets/foto-perfil.png';
 
+import { motion } from 'framer-motion';
+
 const Home = () => {
   return (
-    <section className='Home'>
+    <motion.section
+      initial={{ width:'0' }}
+      animate={{ width:'100%' }}
+      className='Home'>
       <div className='Home__Container'>
         <div className='Home__Area-Left'>
           <div className='Home__My-Name'>
@@ -20,12 +25,18 @@ const Home = () => {
           </div>
         </div>
         <div className='Home__Area-Rigth'>
-          <div className='Home__Area-Perfil'>
-              <img src={perfil} />
-          </div>
+          <motion.div
+           initial={{ width:'0' }}
+           animate={{ width:'100%' }}
+          className='Home__Area-Perfil'>
+              <motion.img
+               initial={{ width:'0' }}
+               animate={{ width:'100%' }}
+              src={perfil} />
+          </motion.div>
         </div>
       </div>
-    </section>
+    </motion.section>
   )
 }
 
