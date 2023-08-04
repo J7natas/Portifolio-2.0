@@ -1,4 +1,3 @@
-
 import imgProject1 from '../../assets/images-projects/image-project-1.png';
 import imgProject2 from '../../assets/images-projects/image-project-2.png';
 import imgProject3 from '../../assets/images-projects/image-project-3.png';
@@ -9,8 +8,9 @@ import './index.scss';
 import { motion } from 'framer-motion';
 
 const Project = () => {
+
   return (
-   <motion.section
+    <motion.section
       initial={{ width:'0' }}
       animate={{ width:'100%' }}
       className='Project'>
@@ -30,6 +30,7 @@ const Project = () => {
               <h3>MOVIE LIST</h3>
             </a>
           </div>
+      
           <div className='Project__Container-Projects'>
             <a href='https://product-page-gold.vercel.app/' target='_blank'>
               <img src={imgProject2} />

@@ -16,40 +16,25 @@
 
     }
 
-    &__My-Name {
-        width: 210px;
-        margin-top: 200px;
-        margin-left: 70px;
-
-    }
-
-    &__My-Name h3 {
-        font-size: 30px;
-        font-weight: 200;
-        text-transform: uppercase;
-    }
-
     &__Title {
-        margin-left: 60px;
-        width: 650px;
+        margin-top: 280px;
+        margin-left: 30px;
+        margin-right: 200px;
+        width: 450px;
+        height: 170px;
 
     }
 
     &__Title h1 {
         text-transform: uppercase;
-        font-size: 55px;
+        font-size: 50px;
         letter-spacing: 15px;
         font-weight: 400;
-
-    }
-
-    &__Title span {
-        color: white;
-
+        margin-left: -50px;
     }
 
     &__Barras {
-        margin-top: 150px;
+        margin-top: 130px;
         margin-left: -63px;
 
     }
