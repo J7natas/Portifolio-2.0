@@ -38,10 +38,7 @@ const Home = () => {
   }
 
   return (
-    <motion.section
-      initial={{ width:'0' }}
-      animate={{ width:'100%' }}
-      className='Home'>
+    <section className='Home'>
       <div className='Home__Container'>
         <div className='Home__Area-Left'>
           <div className='Home__Title'>
@@ -56,17 +53,17 @@ const Home = () => {
         </div>
         <div className='Home__Area-Rigth'>
           <motion.div
-           initial={{ width:'0' }}
-           animate={{ width:'100%' }}
+          initial={{ width:'0' }}
+          animate={{ width:'100%' }}
           className='Home__Area-Perfil'>
-              <motion.img
-               initial={{ width:'0' }}
-               animate={{ width:'100%' }}
+          <motion.img
+              initial={{ width:'0' }}
+              animate={{ width:'100%' }}
               src={perfil} />
           </motion.div>
         </div>
       </div>
-    </motion.section>
+    </section>
   )
 }
 
