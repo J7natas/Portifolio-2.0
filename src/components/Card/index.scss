@@ -5,6 +5,14 @@
         width: 350px;
         height: 230px;
         margin-top: 20px;
+        transition: 0.2s;
+        border-radius: 10px;
+
+    }
+
+    &__img:hover {
+        transform: translateY(-8px);
+        transition: 0.2s;
     }
 
     &__Description {
@@ -12,6 +20,21 @@
         border-radius: 5px;
         padding: 5px;
         max-width: 350px;
+        transition: 0.6s;
+        transform: translateY(5px);
+        animation-duration: 0.8s;
+        animation-name: slidein;
+    }
+
+    @keyframes slidein {
+
+        from {
+            transform: translateY(-50px);
+        }
+
+        to {
+            transform: translateY(5px);
+        }
     }
 
     &__Description h3 {
