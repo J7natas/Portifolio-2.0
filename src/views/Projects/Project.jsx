@@ -64,9 +64,10 @@ const Project = () => {
             title="Jordan Ecomerce"
             text="React, Sass, Expess, Node"
             description="Este projeto eu desenvolvi uma API de sapatos jordans e integrei ela ao front, ela lista os produtos" 
-            site="https://jordan-ecomerce.vercel.app/products" 
+            site="https://jordan-ecomerce.vercel.app/" 
             repo="https://github.com/J7natas/jordan-ecomerce.git" 
           />
+          
       </motion.div>
       <div className='Project__Lines-rigths'>
         <div className='Project__Line-Rigth-1'></div>
